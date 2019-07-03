@@ -414,7 +414,7 @@ var paths = {
     pages: ['src/*.html']
 };
 
-gulp.task('copyHtml', function () {
+gulp.task('copy-html', function () {
     return gulp.src(paths.pages)
         .pipe(gulp.dest('dist'));
 });
