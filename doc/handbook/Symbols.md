@@ -19,7 +19,7 @@ let sym3 = Symbol("key");
 sym2 === sym3; // false, symbols是唯一的
 ```
 
-像字符串一样，symbols也可以被用做对象属性的键。
+像字符串一样，symbols也可以被用做对象属性的键。(此处测试的报错// 类型“symbol”不能作为索引类型使用,往知道原因的小伙伴告知。。。)
 
 ```ts
 const sym = Symbol();
